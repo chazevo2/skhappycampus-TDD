@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec4f701-24b3-42f0-ae23-12ec4c37e4c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test Results - CalculatorTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculator/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/calculator/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/calculator/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/calculator/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565931836722</updated>
       <workItem from="1565931840932" duration="1059000" />
-      <workItem from="1565933174673" duration="5906000" />
+      <workItem from="1565933174673" duration="6350000" />
     </task>
     <servers />
   </component>
@@ -166,5 +165,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/calculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1565939426501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.calculator.*</FILTER>
+    </SUITE>
   </component>
 </project>
