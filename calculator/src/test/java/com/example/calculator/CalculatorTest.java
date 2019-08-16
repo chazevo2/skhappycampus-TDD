@@ -28,4 +28,25 @@ public class CalculatorTest {
 
         assertNotEquals(0, result);
     }
+
+    @Test
+    public void test_정수나눗셈() {
+        int result = calc.divide(10, 5);
+
+        assertEquals(2, result);
+    }
+
+    @Test
+    public void test_실수나눗셈() {
+        double result = calc.divide(10.0, 4.0);
+
+        assertEquals(2.5, result);
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void test_0나눗셈() {
+        double result = calc.divide(10, 0);
+
+        assertEquals(0, result);
+    }
 }

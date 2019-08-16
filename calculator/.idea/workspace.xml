@@ -14,6 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -79,9 +80,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.test_정수나눗셈" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="test_정수나눗셈" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.test_0나눗셈" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="test_0나눗셈" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.test_실수나눗셈" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="test_실수나눗셈" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.test_0나눗셈" />
+        <item itemvalue="JUnit.CalculatorTest.test_실수나눗셈" />
+        <item itemvalue="JUnit.CalculatorTest.test_정수나눗셈" />
         <item itemvalue="JUnit.CalculatorTest.testAdd" />
       </list>
     </recent_temporary>
@@ -97,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1565931836722</updated>
       <workItem from="1565931840932" duration="1059000" />
-      <workItem from="1565933174673" duration="2815000" />
+      <workItem from="1565933174673" duration="5906000" />
     </task>
     <servers />
   </component>
