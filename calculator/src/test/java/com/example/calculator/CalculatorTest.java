@@ -3,19 +3,29 @@ package com.example.calculator;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class CalculatorTest {
+    Calculator calc = new Calculator();
+
     @Test
-    public void testAdd() {
-        Calculator calc = new Calculator();
+    public void test_양수덧셈() {
         int result = calc.add(5, 4);
 
-        System.out.println("result = " + result);
-        if (result == 9) {
-            System.out.println("성공");
-        } else {
-            System.out.println("실패");
-        }
+        assertEquals("add 함수의 결과는 9이어야 합니다.", 9, result);
+    }
 
+    @Test
+    public void test_음수덧셈() {
+        int result = calc.add(-5, -4);
+
+        assertEquals("add 함수의 결과는 -9이어야 합니다.", -9, result);
+    }
+
+    @Test
+    public void test_양수덧셈2() {
+        int result = calc.add(5, 4);
+
+        assertNotEquals(0, result);
     }
 }
