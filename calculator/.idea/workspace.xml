@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ec4f701-24b3-42f0-ae23-12ec4c37e4c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.CalculatorTest.test_양수뺄셈">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
@@ -109,6 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.test_양수뺄셈" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="test_양수뺄셈" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.test_실수나눗셈" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <extension name="coverage">
@@ -127,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.test_양수뺄셈" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.test_0나눗셈" />
         <item itemvalue="JUnit.CalculatorTest.test_정수나눗셈" />
@@ -147,8 +164,16 @@
       <workItem from="1565931840932" duration="1059000" />
       <workItem from="1565933174673" duration="8259000" />
       <workItem from="1566173269711" duration="1230000" />
-      <workItem from="1566175988680" duration="46000" />
+      <workItem from="1566175988680" duration="1110000" />
     </task>
+    <task id="LOCAL-00001" summary="add method multiply">
+      <created>1566176085864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566176085864</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +191,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add method multiply" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method multiply" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/calculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1565939426501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
