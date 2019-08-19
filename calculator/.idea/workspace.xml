@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec4f701-24b3-42f0-ae23-12ec4c37e4c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/calculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,6 +164,7 @@
       <workItem from="1566173269711" duration="1230000" />
       <workItem from="1566175988680" duration="1110000" />
       <workItem from="1566177778289" duration="625000" />
+      <workItem from="1566179478978" duration="150000" />
     </task>
     <task id="LOCAL-00001" summary="add method multiply">
       <created>1566176085864</created>
