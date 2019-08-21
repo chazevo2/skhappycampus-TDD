@@ -1,0 +1,16 @@
+# directories
+/.idea/
+/calculator/.idea/
+/calculator/target/
+
+# files
+*.class
+*.iml
+/calculator/Test Results - CalculatorTest.html
+*.bak
+
+# Eclipse
+.project
+.metadata
+
+/calculator//bin/**
