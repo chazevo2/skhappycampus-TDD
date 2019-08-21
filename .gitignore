@@ -6,11 +6,11 @@
 # files
 *.class
 *.iml
-test.xml
+/calculator/Test Results - CalculatorTest.html
 *.bak
 
 # Eclipse
 .project
 .metadata
 
-calculator/bin/**
+/calculator//bin/**
